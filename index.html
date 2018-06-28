@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tournamet Simulation</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="scripts/config.js" defer></script>
+    <script src="scripts/game.js" defer></script>
+    <script src="scripts/request.js" defer></script>
+    <script src="scripts/state.js" defer></script>
+    <script src="scripts/utils.js" defer></script>
+    <script src="scripts/dom.js" defer></script>
+</head>
+<body>
+    <div id="control-button-wrapper">
+        <button id="play" type="button">PLAY</button>
+        <button id="pause" type="button" disabled>PAUSE</button>
+    </div>  
+
+    <div id="table-wrapper">
+        <div id="eight-finals"></div>
+        <div id="quarter-finals"></div>
+        <div id="semi-finals"></div>
+        <div id="final"></div>
+    </div>
+
+    <div id="modal">
+        <div class="modal-content">
+            <span id="modal-close">&times;</span>
+            <div id="modal-text"></div>
+        </div>
+    </div>
+</body>
+</html>
