@@ -119,4 +119,6 @@ const dom = {
     },
 };
 
+state.teams = JSON.parse(localStorage.getItem('teams'));
+console.log(state.teams);
 dom.init();
